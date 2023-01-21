@@ -1,7 +1,7 @@
 #!/bin/bash
 # made by chat-gpt :)
 
-# Erstelle neue ipset-Tabellen für deutsche und portugiesische IP-Adressen
+# Erstelle neue ipset-Tabellen für deutsche und Uni- und portugiesische IP-Adressen
 ipset create de hash:net
 ipset create pt hash:net
 ipset create localnet hash:net
